@@ -10,13 +10,10 @@
 
 @implementation MKConst
 
-NSString *const UMengAppkey = @"5861e5daf5ade41326001eab";
-
-NSString *const WXAppkey = @"wx102ed6c47738d38a";
-NSString *const WXAppSecret = @"a3a4f41b7fea03f6b39f3f5ff99e41d4";
-
-NSString *const QQAppkey = @"1105405763";
-
-NSString *const UMengRedirectURL = @"http://mobile.umeng.com/social";
+NSString *const UMengAppkey = @"";
+NSString *const WXAppkey = @"";
+NSString *const WXAppSecret = @"";
+NSString *const QQAppkey = @"";
+NSString *const UMengRedirectURL = @"";
 
 @end
