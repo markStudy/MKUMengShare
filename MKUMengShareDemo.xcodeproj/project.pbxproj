@@ -1,0 +1,785 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		060B90FEC56183EFB229BB53 /* libPods-MKUMengShareDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BCEC390E42FB087D233906A /* libPods-MKUMengShareDemoUITests.a */; };
+		934E03E859664C6FE47C4401 /* libPods-MKUMengShareDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F049D587009D62683A7B03C /* libPods-MKUMengShareDemoTests.a */; };
+		93D4A15F60243C87A4DA4C43 /* libPods-MKUMengShareDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B9871A9172D733580FCE552 /* libPods-MKUMengShareDemo.a */; };
+		B418FCE41EA62EE100754834 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B418FCE31EA62EE100754834 /* main.m */; };
+		B418FCE71EA62EE100754834 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B418FCE61EA62EE100754834 /* AppDelegate.m */; };
+		B418FCEA1EA62EE100754834 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B418FCE91EA62EE100754834 /* ViewController.m */; };
+		B418FCED1EA62EE100754834 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B418FCEB1EA62EE100754834 /* Main.storyboard */; };
+		B418FCEF1EA62EE100754834 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B418FCEE1EA62EE100754834 /* Assets.xcassets */; };
+		B418FCF21EA62EE100754834 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B418FCF01EA62EE100754834 /* LaunchScreen.storyboard */; };
+		B418FCFD1EA62EE100754834 /* MKUMengShareDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B418FCFC1EA62EE100754834 /* MKUMengShareDemoTests.m */; };
+		B418FD081EA62EE100754834 /* MKUMengShareDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B418FD071EA62EE100754834 /* MKUMengShareDemoUITests.m */; };
+		B418FD1F1EA62F9000754834 /* MKConst.m in Sources */ = {isa = PBXBuildFile; fileRef = B418FD181EA62F9000754834 /* MKConst.m */; };
+		B418FD201EA62F9000754834 /* MKImageDownLoadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B418FD1A1EA62F9000754834 /* MKImageDownLoadManager.m */; };
+		B418FD211EA62F9000754834 /* MKUMengShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B418FD1C1EA62F9000754834 /* MKUMengShareManager.m */; };
+		B418FD221EA62F9000754834 /* MKUMengShareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B418FD1E1EA62F9000754834 /* MKUMengShareModel.m */; };
+		B418FD251EA633E000754834 /* MKUMengLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B418FD241EA633E000754834 /* MKUMengLoginManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B418FCF91EA62EE100754834 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B418FCD71EA62EE100754834 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B418FCDE1EA62EE100754834;
+			remoteInfo = MKUMengShareDemo;
+		};
+		B418FD041EA62EE100754834 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B418FCD71EA62EE100754834 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B418FCDE1EA62EE100754834;
+			remoteInfo = MKUMengShareDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28E4B8EDE492B1A77ABCB32A /* Pods-MKUMengShareDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKUMengShareDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MKUMengShareDemoUITests/Pods-MKUMengShareDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2B9871A9172D733580FCE552 /* libPods-MKUMengShareDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MKUMengShareDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		354D450BAFE677DDBD50D3A7 /* Pods-MKUMengShareDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKUMengShareDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MKUMengShareDemoUITests/Pods-MKUMengShareDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3781BFDBC77D75EB04C6821A /* Pods-MKUMengShareDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKUMengShareDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MKUMengShareDemo/Pods-MKUMengShareDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		4BCEC390E42FB087D233906A /* libPods-MKUMengShareDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MKUMengShareDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F049D587009D62683A7B03C /* libPods-MKUMengShareDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MKUMengShareDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A591D2993AF6B324450EE53F /* Pods-MKUMengShareDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKUMengShareDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MKUMengShareDemoTests/Pods-MKUMengShareDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B418FCDF1EA62EE100754834 /* MKUMengShareDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MKUMengShareDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B418FCE31EA62EE100754834 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B418FCE51EA62EE100754834 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B418FCE61EA62EE100754834 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B418FCE81EA62EE100754834 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B418FCE91EA62EE100754834 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B418FCEC1EA62EE100754834 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B418FCEE1EA62EE100754834 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B418FCF11EA62EE100754834 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B418FCF31EA62EE100754834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B418FCF81EA62EE100754834 /* MKUMengShareDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MKUMengShareDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B418FCFC1EA62EE100754834 /* MKUMengShareDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKUMengShareDemoTests.m; sourceTree = "<group>"; };
+		B418FCFE1EA62EE100754834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B418FD031EA62EE100754834 /* MKUMengShareDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MKUMengShareDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B418FD071EA62EE100754834 /* MKUMengShareDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKUMengShareDemoUITests.m; sourceTree = "<group>"; };
+		B418FD091EA62EE100754834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B418FD171EA62F9000754834 /* MKConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKConst.h; sourceTree = "<group>"; };
+		B418FD181EA62F9000754834 /* MKConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKConst.m; sourceTree = "<group>"; };
+		B418FD191EA62F9000754834 /* MKImageDownLoadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKImageDownLoadManager.h; sourceTree = "<group>"; };
+		B418FD1A1EA62F9000754834 /* MKImageDownLoadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKImageDownLoadManager.m; sourceTree = "<group>"; };
+		B418FD1B1EA62F9000754834 /* MKUMengShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKUMengShareManager.h; sourceTree = "<group>"; };
+		B418FD1C1EA62F9000754834 /* MKUMengShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKUMengShareManager.m; sourceTree = "<group>"; };
+		B418FD1D1EA62F9000754834 /* MKUMengShareModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKUMengShareModel.h; sourceTree = "<group>"; };
+		B418FD1E1EA62F9000754834 /* MKUMengShareModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKUMengShareModel.m; sourceTree = "<group>"; };
+		B418FD231EA633E000754834 /* MKUMengLoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKUMengLoginManager.h; sourceTree = "<group>"; };
+		B418FD241EA633E000754834 /* MKUMengLoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKUMengLoginManager.m; sourceTree = "<group>"; };
+		D95C22FC2F50FE8C5604CE22 /* Pods-MKUMengShareDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKUMengShareDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MKUMengShareDemo/Pods-MKUMengShareDemo.release.xcconfig"; sourceTree = "<group>"; };
+		E42DBC4EC8DA1A6351FBC451 /* Pods-MKUMengShareDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKUMengShareDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MKUMengShareDemoTests/Pods-MKUMengShareDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B418FCDC1EA62EE100754834 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93D4A15F60243C87A4DA4C43 /* libPods-MKUMengShareDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B418FCF51EA62EE100754834 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934E03E859664C6FE47C4401 /* libPods-MKUMengShareDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B418FD001EA62EE100754834 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				060B90FEC56183EFB229BB53 /* libPods-MKUMengShareDemoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7359A6F0045146809F9BA0A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B9871A9172D733580FCE552 /* libPods-MKUMengShareDemo.a */,
+				9F049D587009D62683A7B03C /* libPods-MKUMengShareDemoTests.a */,
+				4BCEC390E42FB087D233906A /* libPods-MKUMengShareDemoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		864FCAEB4501DD6327E1D8F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3781BFDBC77D75EB04C6821A /* Pods-MKUMengShareDemo.debug.xcconfig */,
+				D95C22FC2F50FE8C5604CE22 /* Pods-MKUMengShareDemo.release.xcconfig */,
+				A591D2993AF6B324450EE53F /* Pods-MKUMengShareDemoTests.debug.xcconfig */,
+				E42DBC4EC8DA1A6351FBC451 /* Pods-MKUMengShareDemoTests.release.xcconfig */,
+				28E4B8EDE492B1A77ABCB32A /* Pods-MKUMengShareDemoUITests.debug.xcconfig */,
+				354D450BAFE677DDBD50D3A7 /* Pods-MKUMengShareDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B418FCD61EA62EE100754834 = {
+			isa = PBXGroup;
+			children = (
+				B418FD151EA62F9000754834 /* MKUMengLogin */,
+				B418FD161EA62F9000754834 /* MKUMengShare */,
+				B418FCE11EA62EE100754834 /* MKUMengShareDemo */,
+				B418FCFB1EA62EE100754834 /* MKUMengShareDemoTests */,
+				B418FD061EA62EE100754834 /* MKUMengShareDemoUITests */,
+				B418FCE01EA62EE100754834 /* Products */,
+				864FCAEB4501DD6327E1D8F4 /* Pods */,
+				7359A6F0045146809F9BA0A4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B418FCE01EA62EE100754834 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B418FCDF1EA62EE100754834 /* MKUMengShareDemo.app */,
+				B418FCF81EA62EE100754834 /* MKUMengShareDemoTests.xctest */,
+				B418FD031EA62EE100754834 /* MKUMengShareDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B418FCE11EA62EE100754834 /* MKUMengShareDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B418FCE51EA62EE100754834 /* AppDelegate.h */,
+				B418FCE61EA62EE100754834 /* AppDelegate.m */,
+				B418FCE81EA62EE100754834 /* ViewController.h */,
+				B418FCE91EA62EE100754834 /* ViewController.m */,
+				B418FCEB1EA62EE100754834 /* Main.storyboard */,
+				B418FCEE1EA62EE100754834 /* Assets.xcassets */,
+				B418FCF01EA62EE100754834 /* LaunchScreen.storyboard */,
+				B418FCF31EA62EE100754834 /* Info.plist */,
+				B418FCE21EA62EE100754834 /* Supporting Files */,
+			);
+			path = MKUMengShareDemo;
+			sourceTree = "<group>";
+		};
+		B418FCE21EA62EE100754834 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B418FCE31EA62EE100754834 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B418FCFB1EA62EE100754834 /* MKUMengShareDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				B418FCFC1EA62EE100754834 /* MKUMengShareDemoTests.m */,
+				B418FCFE1EA62EE100754834 /* Info.plist */,
+			);
+			path = MKUMengShareDemoTests;
+			sourceTree = "<group>";
+		};
+		B418FD061EA62EE100754834 /* MKUMengShareDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B418FD071EA62EE100754834 /* MKUMengShareDemoUITests.m */,
+				B418FD091EA62EE100754834 /* Info.plist */,
+			);
+			path = MKUMengShareDemoUITests;
+			sourceTree = "<group>";
+		};
+		B418FD151EA62F9000754834 /* MKUMengLogin */ = {
+			isa = PBXGroup;
+			children = (
+				B418FD231EA633E000754834 /* MKUMengLoginManager.h */,
+				B418FD241EA633E000754834 /* MKUMengLoginManager.m */,
+			);
+			path = MKUMengLogin;
+			sourceTree = "<group>";
+		};
+		B418FD161EA62F9000754834 /* MKUMengShare */ = {
+			isa = PBXGroup;
+			children = (
+				B418FD1B1EA62F9000754834 /* MKUMengShareManager.h */,
+				B418FD1C1EA62F9000754834 /* MKUMengShareManager.m */,
+				B418FD171EA62F9000754834 /* MKConst.h */,
+				B418FD181EA62F9000754834 /* MKConst.m */,
+				B418FD191EA62F9000754834 /* MKImageDownLoadManager.h */,
+				B418FD1A1EA62F9000754834 /* MKImageDownLoadManager.m */,
+				B418FD1D1EA62F9000754834 /* MKUMengShareModel.h */,
+				B418FD1E1EA62F9000754834 /* MKUMengShareModel.m */,
+			);
+			path = MKUMengShare;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B418FCDE1EA62EE100754834 /* MKUMengShareDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B418FD0C1EA62EE100754834 /* Build configuration list for PBXNativeTarget "MKUMengShareDemo" */;
+			buildPhases = (
+				240DDC56DDD7D0E9672143FD /* [CP] Check Pods Manifest.lock */,
+				B418FCDB1EA62EE100754834 /* Sources */,
+				B418FCDC1EA62EE100754834 /* Frameworks */,
+				B418FCDD1EA62EE100754834 /* Resources */,
+				F79A2130AB281DECFC878AB4 /* [CP] Embed Pods Frameworks */,
+				807EF33B404C1CEE4534BEB3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MKUMengShareDemo;
+			productName = MKUMengShareDemo;
+			productReference = B418FCDF1EA62EE100754834 /* MKUMengShareDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B418FCF71EA62EE100754834 /* MKUMengShareDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B418FD0F1EA62EE100754834 /* Build configuration list for PBXNativeTarget "MKUMengShareDemoTests" */;
+			buildPhases = (
+				E3459DACB77E5C0E17F703DC /* [CP] Check Pods Manifest.lock */,
+				B418FCF41EA62EE100754834 /* Sources */,
+				B418FCF51EA62EE100754834 /* Frameworks */,
+				B418FCF61EA62EE100754834 /* Resources */,
+				6A9BC4E62663A97D6A508C0D /* [CP] Embed Pods Frameworks */,
+				B056982BAC0A7F081CC93936 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B418FCFA1EA62EE100754834 /* PBXTargetDependency */,
+			);
+			name = MKUMengShareDemoTests;
+			productName = MKUMengShareDemoTests;
+			productReference = B418FCF81EA62EE100754834 /* MKUMengShareDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B418FD021EA62EE100754834 /* MKUMengShareDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B418FD121EA62EE100754834 /* Build configuration list for PBXNativeTarget "MKUMengShareDemoUITests" */;
+			buildPhases = (
+				2ECE6D265082C7EF28D3BD99 /* [CP] Check Pods Manifest.lock */,
+				B418FCFF1EA62EE100754834 /* Sources */,
+				B418FD001EA62EE100754834 /* Frameworks */,
+				B418FD011EA62EE100754834 /* Resources */,
+				548B35FEFDE22C741EF23EC0 /* [CP] Embed Pods Frameworks */,
+				D1F5D00C5111CB0C833037EA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B418FD051EA62EE100754834 /* PBXTargetDependency */,
+			);
+			name = MKUMengShareDemoUITests;
+			productName = MKUMengShareDemoUITests;
+			productReference = B418FD031EA62EE100754834 /* MKUMengShareDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B418FCD71EA62EE100754834 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = BD;
+				TargetAttributes = {
+					B418FCDE1EA62EE100754834 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 2KMB3EQRW5;
+						ProvisioningStyle = Automatic;
+					};
+					B418FCF71EA62EE100754834 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 2KMB3EQRW5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B418FCDE1EA62EE100754834;
+					};
+					B418FD021EA62EE100754834 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 2KMB3EQRW5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B418FCDE1EA62EE100754834;
+					};
+				};
+			};
+			buildConfigurationList = B418FCDA1EA62EE100754834 /* Build configuration list for PBXProject "MKUMengShareDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B418FCD61EA62EE100754834;
+			productRefGroup = B418FCE01EA62EE100754834 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B418FCDE1EA62EE100754834 /* MKUMengShareDemo */,
+				B418FCF71EA62EE100754834 /* MKUMengShareDemoTests */,
+				B418FD021EA62EE100754834 /* MKUMengShareDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B418FCDD1EA62EE100754834 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B418FCF21EA62EE100754834 /* LaunchScreen.storyboard in Resources */,
+				B418FCEF1EA62EE100754834 /* Assets.xcassets in Resources */,
+				B418FCED1EA62EE100754834 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B418FCF61EA62EE100754834 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B418FD011EA62EE100754834 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		240DDC56DDD7D0E9672143FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2ECE6D265082C7EF28D3BD99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		548B35FEFDE22C741EF23EC0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MKUMengShareDemoUITests/Pods-MKUMengShareDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A9BC4E62663A97D6A508C0D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MKUMengShareDemoTests/Pods-MKUMengShareDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		807EF33B404C1CEE4534BEB3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MKUMengShareDemo/Pods-MKUMengShareDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B056982BAC0A7F081CC93936 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MKUMengShareDemoTests/Pods-MKUMengShareDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1F5D00C5111CB0C833037EA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MKUMengShareDemoUITests/Pods-MKUMengShareDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3459DACB77E5C0E17F703DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F79A2130AB281DECFC878AB4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MKUMengShareDemo/Pods-MKUMengShareDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B418FCDB1EA62EE100754834 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B418FD251EA633E000754834 /* MKUMengLoginManager.m in Sources */,
+				B418FD221EA62F9000754834 /* MKUMengShareModel.m in Sources */,
+				B418FD201EA62F9000754834 /* MKImageDownLoadManager.m in Sources */,
+				B418FCEA1EA62EE100754834 /* ViewController.m in Sources */,
+				B418FCE71EA62EE100754834 /* AppDelegate.m in Sources */,
+				B418FCE41EA62EE100754834 /* main.m in Sources */,
+				B418FD211EA62F9000754834 /* MKUMengShareManager.m in Sources */,
+				B418FD1F1EA62F9000754834 /* MKConst.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B418FCF41EA62EE100754834 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B418FCFD1EA62EE100754834 /* MKUMengShareDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B418FCFF1EA62EE100754834 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B418FD081EA62EE100754834 /* MKUMengShareDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B418FCFA1EA62EE100754834 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B418FCDE1EA62EE100754834 /* MKUMengShareDemo */;
+			targetProxy = B418FCF91EA62EE100754834 /* PBXContainerItemProxy */;
+		};
+		B418FD051EA62EE100754834 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B418FCDE1EA62EE100754834 /* MKUMengShareDemo */;
+			targetProxy = B418FD041EA62EE100754834 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B418FCEB1EA62EE100754834 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B418FCEC1EA62EE100754834 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B418FCF01EA62EE100754834 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B418FCF11EA62EE100754834 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B418FD0A1EA62EE100754834 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B418FD0B1EA62EE100754834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B418FD0D1EA62EE100754834 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3781BFDBC77D75EB04C6821A /* Pods-MKUMengShareDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2KMB3EQRW5;
+				INFOPLIST_FILE = MKUMengShareDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xunke.bondCommunity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B418FD0E1EA62EE100754834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D95C22FC2F50FE8C5604CE22 /* Pods-MKUMengShareDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2KMB3EQRW5;
+				INFOPLIST_FILE = MKUMengShareDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xunke.bondCommunity;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B418FD101EA62EE100754834 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A591D2993AF6B324450EE53F /* Pods-MKUMengShareDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2KMB3EQRW5;
+				INFOPLIST_FILE = MKUMengShareDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bond.MKUMengShareDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MKUMengShareDemo.app/MKUMengShareDemo";
+			};
+			name = Debug;
+		};
+		B418FD111EA62EE100754834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E42DBC4EC8DA1A6351FBC451 /* Pods-MKUMengShareDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2KMB3EQRW5;
+				INFOPLIST_FILE = MKUMengShareDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bond.MKUMengShareDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MKUMengShareDemo.app/MKUMengShareDemo";
+			};
+			name = Release;
+		};
+		B418FD131EA62EE100754834 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28E4B8EDE492B1A77ABCB32A /* Pods-MKUMengShareDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2KMB3EQRW5;
+				INFOPLIST_FILE = MKUMengShareDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bond.MKUMengShareDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MKUMengShareDemo;
+			};
+			name = Debug;
+		};
+		B418FD141EA62EE100754834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 354D450BAFE677DDBD50D3A7 /* Pods-MKUMengShareDemoUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2KMB3EQRW5;
+				INFOPLIST_FILE = MKUMengShareDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bond.MKUMengShareDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MKUMengShareDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B418FCDA1EA62EE100754834 /* Build configuration list for PBXProject "MKUMengShareDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B418FD0A1EA62EE100754834 /* Debug */,
+				B418FD0B1EA62EE100754834 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B418FD0C1EA62EE100754834 /* Build configuration list for PBXNativeTarget "MKUMengShareDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B418FD0D1EA62EE100754834 /* Debug */,
+				B418FD0E1EA62EE100754834 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B418FD0F1EA62EE100754834 /* Build configuration list for PBXNativeTarget "MKUMengShareDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B418FD101EA62EE100754834 /* Debug */,
+				B418FD111EA62EE100754834 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B418FD121EA62EE100754834 /* Build configuration list for PBXNativeTarget "MKUMengShareDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B418FD131EA62EE100754834 /* Debug */,
+				B418FD141EA62EE100754834 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B418FCD71EA62EE100754834 /* Project object */;
+}
