@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
     s.platform     = :ios, "7.0"
 
-    s.source       = { :git => "https://github.com/markStudy/MKUMengShare.git", :tag => "s.version" }
+    s.source       = { :git => "https://github.com/markStudy/MKUMengShare.git", :tag => s.version }
 
 
     s.source_files  = "Classes", "Classes/**/*.{h,m}"
