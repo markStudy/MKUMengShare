@@ -50,6 +50,7 @@
 
     [MKUMengLoginManager getUserInfoForPlatform:UMSocialPlatformType_WechatSession viewController:self success:^(UMSocialUserInfoResponse *result) {
         
+        // 获取三方信息后，做自己的登录
         [self gotoLogin];
         
     } failure:^(NSError *error) {

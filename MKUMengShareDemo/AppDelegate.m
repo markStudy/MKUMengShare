@@ -9,6 +9,10 @@
 #import "AppDelegate.h"
 #import "MKUMengShareManager.h"
 
+/**
+    1、先配置好项目
+    2、下面的key都是必不可少的，请根据自己的key去替换
+ */
 
 static NSString *const UMengAppkey = @"5861e5daf5ade41326001eab";
 static NSString *const WXAppkey = @"wx102ed6c47738d38a";
