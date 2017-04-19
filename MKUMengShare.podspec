@@ -17,14 +17,13 @@ Pod::Spec.new do |s|
     s.platform     = :ios, "7.0"
 
     s.source       = { :git => "https://github.com/markStudy/MKUMengShare.git", :tag => s.version }
+    s.requires_arc = true
 
-    s.exclude_files = "Classes/Exclude"
 
     s.dependency 'UMengUShare/UI' # U-Share SDK UI模块（分享面板，建议添加）
     s.dependency 'UMengUShare/Social/WeChat' # 集成微信
     s.dependency 'UMengUShare/Social/QQ'  # 集成QQ
     s.dependency 'SDWebImage', '~> 3.8'
-
 
 
     s.subspec 'MKUMengLoginManager' do |ss|
