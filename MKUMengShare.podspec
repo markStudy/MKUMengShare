@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
 
 
     s.name         = "MKUMengShare"
-    s.version      = "0.0.1"
+    s.version      = "0.0.2"
     s.summary      = "快速集成友盟登录和分享"
     s.description  = "方便快速集成友盟登录和分享"
 
