@@ -30,12 +30,12 @@ Pod::Spec.new do |s|
 
 
 
-    s.subspec 'MKUMengLogin' do |ss|
-    ss.source_files = 'MKUMengShareDemo/MKUMengLogin/*.{h,m}'
+    s.subspec 'MKUMengLoginManager' do |ss|
+    ss.source_files = 'MKUMengShare/MKUMengLoginManager/*.{h,m}'
     end
 
-    s.subspec 'MKUMengShare' do |ss|
-    ss.source_files = 'MKUMengShareDemo/MKUMengShare/*.{h,m}'
+    s.subspec 'MKUMengShareManager' do |ss|
+    ss.source_files = 'MKUMengShare/MKUMengShareManager/*.{h,m}'
     end
 
 end

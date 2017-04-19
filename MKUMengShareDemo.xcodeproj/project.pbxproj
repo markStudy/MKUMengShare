@@ -18,11 +18,11 @@
 		B418FCF21EA62EE100754834 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B418FCF01EA62EE100754834 /* LaunchScreen.storyboard */; };
 		B418FCFD1EA62EE100754834 /* MKUMengShareDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B418FCFC1EA62EE100754834 /* MKUMengShareDemoTests.m */; };
 		B418FD081EA62EE100754834 /* MKUMengShareDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B418FD071EA62EE100754834 /* MKUMengShareDemoUITests.m */; };
-		B418FD1F1EA62F9000754834 /* MKConst.m in Sources */ = {isa = PBXBuildFile; fileRef = B418FD181EA62F9000754834 /* MKConst.m */; };
-		B418FD201EA62F9000754834 /* MKImageDownLoadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B418FD1A1EA62F9000754834 /* MKImageDownLoadManager.m */; };
-		B418FD211EA62F9000754834 /* MKUMengShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B418FD1C1EA62F9000754834 /* MKUMengShareManager.m */; };
-		B418FD221EA62F9000754834 /* MKUMengShareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B418FD1E1EA62F9000754834 /* MKUMengShareModel.m */; };
-		B418FD251EA633E000754834 /* MKUMengLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B418FD241EA633E000754834 /* MKUMengLoginManager.m */; };
+		B4AA9EC81EA7150C0092D5B8 /* MKUMengLoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AA9EBE1EA7150C0092D5B8 /* MKUMengLoginManager.m */; };
+		B4AA9EC91EA7150C0092D5B8 /* MKConst.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AA9EC11EA7150C0092D5B8 /* MKConst.m */; };
+		B4AA9ECA1EA7150C0092D5B8 /* MKImageDownLoadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AA9EC31EA7150C0092D5B8 /* MKImageDownLoadManager.m */; };
+		B4AA9ECB1EA7150C0092D5B8 /* MKUMengShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AA9EC51EA7150C0092D5B8 /* MKUMengShareManager.m */; };
+		B4AA9ECC1EA7150C0092D5B8 /* MKUMengShareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AA9EC71EA7150C0092D5B8 /* MKUMengShareModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,16 +66,16 @@
 		B418FD031EA62EE100754834 /* MKUMengShareDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MKUMengShareDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B418FD071EA62EE100754834 /* MKUMengShareDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKUMengShareDemoUITests.m; sourceTree = "<group>"; };
 		B418FD091EA62EE100754834 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B418FD171EA62F9000754834 /* MKConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKConst.h; sourceTree = "<group>"; };
-		B418FD181EA62F9000754834 /* MKConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKConst.m; sourceTree = "<group>"; };
-		B418FD191EA62F9000754834 /* MKImageDownLoadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKImageDownLoadManager.h; sourceTree = "<group>"; };
-		B418FD1A1EA62F9000754834 /* MKImageDownLoadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKImageDownLoadManager.m; sourceTree = "<group>"; };
-		B418FD1B1EA62F9000754834 /* MKUMengShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKUMengShareManager.h; sourceTree = "<group>"; };
-		B418FD1C1EA62F9000754834 /* MKUMengShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKUMengShareManager.m; sourceTree = "<group>"; };
-		B418FD1D1EA62F9000754834 /* MKUMengShareModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKUMengShareModel.h; sourceTree = "<group>"; };
-		B418FD1E1EA62F9000754834 /* MKUMengShareModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKUMengShareModel.m; sourceTree = "<group>"; };
-		B418FD231EA633E000754834 /* MKUMengLoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKUMengLoginManager.h; sourceTree = "<group>"; };
-		B418FD241EA633E000754834 /* MKUMengLoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKUMengLoginManager.m; sourceTree = "<group>"; };
+		B4AA9EBD1EA7150C0092D5B8 /* MKUMengLoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKUMengLoginManager.h; sourceTree = "<group>"; };
+		B4AA9EBE1EA7150C0092D5B8 /* MKUMengLoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKUMengLoginManager.m; sourceTree = "<group>"; };
+		B4AA9EC01EA7150C0092D5B8 /* MKConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKConst.h; sourceTree = "<group>"; };
+		B4AA9EC11EA7150C0092D5B8 /* MKConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKConst.m; sourceTree = "<group>"; };
+		B4AA9EC21EA7150C0092D5B8 /* MKImageDownLoadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKImageDownLoadManager.h; sourceTree = "<group>"; };
+		B4AA9EC31EA7150C0092D5B8 /* MKImageDownLoadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKImageDownLoadManager.m; sourceTree = "<group>"; };
+		B4AA9EC41EA7150C0092D5B8 /* MKUMengShareManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKUMengShareManager.h; sourceTree = "<group>"; };
+		B4AA9EC51EA7150C0092D5B8 /* MKUMengShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKUMengShareManager.m; sourceTree = "<group>"; };
+		B4AA9EC61EA7150C0092D5B8 /* MKUMengShareModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKUMengShareModel.h; sourceTree = "<group>"; };
+		B4AA9EC71EA7150C0092D5B8 /* MKUMengShareModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKUMengShareModel.m; sourceTree = "<group>"; };
 		D95C22FC2F50FE8C5604CE22 /* Pods-MKUMengShareDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKUMengShareDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MKUMengShareDemo/Pods-MKUMengShareDemo.release.xcconfig"; sourceTree = "<group>"; };
 		E42DBC4EC8DA1A6351FBC451 /* Pods-MKUMengShareDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKUMengShareDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MKUMengShareDemoTests/Pods-MKUMengShareDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -134,8 +134,7 @@
 		B418FCD61EA62EE100754834 = {
 			isa = PBXGroup;
 			children = (
-				B418FD151EA62F9000754834 /* MKUMengLogin */,
-				B418FD161EA62F9000754834 /* MKUMengShare */,
+				B4AA9EBB1EA7150C0092D5B8 /* MKUMengShare */,
 				B418FCE11EA62EE100754834 /* MKUMengShareDemo */,
 				B418FCFB1EA62EE100754834 /* MKUMengShareDemoTests */,
 				B418FD061EA62EE100754834 /* MKUMengShareDemoUITests */,
@@ -197,28 +196,37 @@
 			path = MKUMengShareDemoUITests;
 			sourceTree = "<group>";
 		};
-		B418FD151EA62F9000754834 /* MKUMengLogin */ = {
+		B4AA9EBB1EA7150C0092D5B8 /* MKUMengShare */ = {
 			isa = PBXGroup;
 			children = (
-				B418FD231EA633E000754834 /* MKUMengLoginManager.h */,
-				B418FD241EA633E000754834 /* MKUMengLoginManager.m */,
-			);
-			path = MKUMengLogin;
-			sourceTree = "<group>";
-		};
-		B418FD161EA62F9000754834 /* MKUMengShare */ = {
-			isa = PBXGroup;
-			children = (
-				B418FD1B1EA62F9000754834 /* MKUMengShareManager.h */,
-				B418FD1C1EA62F9000754834 /* MKUMengShareManager.m */,
-				B418FD171EA62F9000754834 /* MKConst.h */,
-				B418FD181EA62F9000754834 /* MKConst.m */,
-				B418FD191EA62F9000754834 /* MKImageDownLoadManager.h */,
-				B418FD1A1EA62F9000754834 /* MKImageDownLoadManager.m */,
-				B418FD1D1EA62F9000754834 /* MKUMengShareModel.h */,
-				B418FD1E1EA62F9000754834 /* MKUMengShareModel.m */,
+				B4AA9EBC1EA7150C0092D5B8 /* MKUMengLoginManager */,
+				B4AA9EBF1EA7150C0092D5B8 /* MKUMengShareManager */,
 			);
 			path = MKUMengShare;
+			sourceTree = "<group>";
+		};
+		B4AA9EBC1EA7150C0092D5B8 /* MKUMengLoginManager */ = {
+			isa = PBXGroup;
+			children = (
+				B4AA9EBD1EA7150C0092D5B8 /* MKUMengLoginManager.h */,
+				B4AA9EBE1EA7150C0092D5B8 /* MKUMengLoginManager.m */,
+			);
+			path = MKUMengLoginManager;
+			sourceTree = "<group>";
+		};
+		B4AA9EBF1EA7150C0092D5B8 /* MKUMengShareManager */ = {
+			isa = PBXGroup;
+			children = (
+				B4AA9EC01EA7150C0092D5B8 /* MKConst.h */,
+				B4AA9EC11EA7150C0092D5B8 /* MKConst.m */,
+				B4AA9EC21EA7150C0092D5B8 /* MKImageDownLoadManager.h */,
+				B4AA9EC31EA7150C0092D5B8 /* MKImageDownLoadManager.m */,
+				B4AA9EC41EA7150C0092D5B8 /* MKUMengShareManager.h */,
+				B4AA9EC51EA7150C0092D5B8 /* MKUMengShareManager.m */,
+				B4AA9EC61EA7150C0092D5B8 /* MKUMengShareModel.h */,
+				B4AA9EC71EA7150C0092D5B8 /* MKUMengShareModel.m */,
+			);
+			path = MKUMengShareManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -504,14 +512,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B418FD251EA633E000754834 /* MKUMengLoginManager.m in Sources */,
-				B418FD221EA62F9000754834 /* MKUMengShareModel.m in Sources */,
-				B418FD201EA62F9000754834 /* MKImageDownLoadManager.m in Sources */,
+				B4AA9EC81EA7150C0092D5B8 /* MKUMengLoginManager.m in Sources */,
+				B4AA9ECB1EA7150C0092D5B8 /* MKUMengShareManager.m in Sources */,
 				B418FCEA1EA62EE100754834 /* ViewController.m in Sources */,
 				B418FCE71EA62EE100754834 /* AppDelegate.m in Sources */,
+				B4AA9ECA1EA7150C0092D5B8 /* MKImageDownLoadManager.m in Sources */,
 				B418FCE41EA62EE100754834 /* main.m in Sources */,
-				B418FD211EA62F9000754834 /* MKUMengShareManager.m in Sources */,
-				B418FD1F1EA62F9000754834 /* MKConst.m in Sources */,
+				B4AA9ECC1EA7150C0092D5B8 /* MKUMengShareModel.m in Sources */,
+				B4AA9EC91EA7150C0092D5B8 /* MKConst.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
