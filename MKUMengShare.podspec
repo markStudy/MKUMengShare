@@ -18,10 +18,7 @@ Pod::Spec.new do |s|
 
     s.source       = { :git => "https://github.com/markStudy/MKUMengShare.git", :tag => s.version }
 
-
-    s.source_files  = "Classes", "Classes/**/*.{h,m}"
     s.exclude_files = "Classes/Exclude"
-
 
     s.dependency 'UMengUShare/UI' # U-Share SDK UI模块（分享面板，建议添加）
     s.dependency 'UMengUShare/Social/WeChat' # 集成微信
