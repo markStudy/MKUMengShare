@@ -23,6 +23,7 @@
 		B4AA9ECA1EA7150C0092D5B8 /* MKImageDownLoadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AA9EC31EA7150C0092D5B8 /* MKImageDownLoadManager.m */; };
 		B4AA9ECB1EA7150C0092D5B8 /* MKUMengShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AA9EC51EA7150C0092D5B8 /* MKUMengShareManager.m */; };
 		B4AA9ECC1EA7150C0092D5B8 /* MKUMengShareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AA9EC71EA7150C0092D5B8 /* MKUMengShareModel.m */; };
+		B4AA9F0E1EA76B340092D5B8 /* MKUMengShareKeyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AA9F0D1EA76B340092D5B8 /* MKUMengShareKeyModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,8 @@
 		B4AA9EC51EA7150C0092D5B8 /* MKUMengShareManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKUMengShareManager.m; sourceTree = "<group>"; };
 		B4AA9EC61EA7150C0092D5B8 /* MKUMengShareModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKUMengShareModel.h; sourceTree = "<group>"; };
 		B4AA9EC71EA7150C0092D5B8 /* MKUMengShareModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKUMengShareModel.m; sourceTree = "<group>"; };
+		B4AA9F0C1EA76B340092D5B8 /* MKUMengShareKeyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKUMengShareKeyModel.h; sourceTree = "<group>"; };
+		B4AA9F0D1EA76B340092D5B8 /* MKUMengShareKeyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKUMengShareKeyModel.m; sourceTree = "<group>"; };
 		D95C22FC2F50FE8C5604CE22 /* Pods-MKUMengShareDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKUMengShareDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MKUMengShareDemo/Pods-MKUMengShareDemo.release.xcconfig"; sourceTree = "<group>"; };
 		E42DBC4EC8DA1A6351FBC451 /* Pods-MKUMengShareDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKUMengShareDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MKUMengShareDemoTests/Pods-MKUMengShareDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -217,14 +220,16 @@
 		B4AA9EBF1EA7150C0092D5B8 /* MKUMengShareManager */ = {
 			isa = PBXGroup;
 			children = (
+				B4AA9EC41EA7150C0092D5B8 /* MKUMengShareManager.h */,
+				B4AA9EC51EA7150C0092D5B8 /* MKUMengShareManager.m */,
 				B4AA9EC01EA7150C0092D5B8 /* MKConst.h */,
 				B4AA9EC11EA7150C0092D5B8 /* MKConst.m */,
 				B4AA9EC21EA7150C0092D5B8 /* MKImageDownLoadManager.h */,
 				B4AA9EC31EA7150C0092D5B8 /* MKImageDownLoadManager.m */,
-				B4AA9EC41EA7150C0092D5B8 /* MKUMengShareManager.h */,
-				B4AA9EC51EA7150C0092D5B8 /* MKUMengShareManager.m */,
 				B4AA9EC61EA7150C0092D5B8 /* MKUMengShareModel.h */,
 				B4AA9EC71EA7150C0092D5B8 /* MKUMengShareModel.m */,
+				B4AA9F0C1EA76B340092D5B8 /* MKUMengShareKeyModel.h */,
+				B4AA9F0D1EA76B340092D5B8 /* MKUMengShareKeyModel.m */,
 			);
 			path = MKUMengShareManager;
 			sourceTree = "<group>";
@@ -517,6 +522,7 @@
 				B418FCEA1EA62EE100754834 /* ViewController.m in Sources */,
 				B418FCE71EA62EE100754834 /* AppDelegate.m in Sources */,
 				B4AA9ECA1EA7150C0092D5B8 /* MKImageDownLoadManager.m in Sources */,
+				B4AA9F0E1EA76B340092D5B8 /* MKUMengShareKeyModel.m in Sources */,
 				B418FCE41EA62EE100754834 /* main.m in Sources */,
 				B4AA9ECC1EA7150C0092D5B8 /* MKUMengShareModel.m in Sources */,
 				B4AA9EC91EA7150C0092D5B8 /* MKConst.m in Sources */,

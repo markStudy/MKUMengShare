@@ -9,10 +9,11 @@
 #import <Foundation/Foundation.h>
 #import <UMSocialCore/UMSocialCore.h>
 #import "MKUMengShareModel.h"
+#import "MKUMengShareKeyModel.h"
 
 @interface MKUMengShareManager : NSObject
 
-+ (void)confitUShareSettings;
++ (void)confitUShareSettings:(MKUMengShareKeyModel *)model;
 
 + (void)showUMShareView:(MKUMengShareModel *)model;
 

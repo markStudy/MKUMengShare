@@ -9,6 +9,13 @@
 #import "AppDelegate.h"
 #import "MKUMengShareManager.h"
 
+
+static NSString *const UMengAppkey = @"5861e5daf5ade41326001eab";
+static NSString *const WXAppkey = @"wx102ed6c47738d38a";
+static NSString *const WXAppSecret = @"a3a4f41b7fea03f6b39f3f5ff99e41d4";
+static NSString *const QQAppkey = @"1105405763";
+static NSString *const UMengRedirectURL = @"http://mobile.umeng.com/social";
+
 @interface AppDelegate ()
 
 @end
@@ -18,7 +25,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
    
-    [MKUMengShareManager confitUShareSettings];
+    MKUMengShareKeyModel *model = [MKUMengShareKeyModel modelWithUMengKey:UMengAppkey wxAppkey:WXAppkey wxAppSecret:WXAppSecret qqAppkey:QQAppkey umengRedirectURL:UMengRedirectURL];
+    [MKUMengShareManager confitUShareSettings:model];
     
     return YES;
 }

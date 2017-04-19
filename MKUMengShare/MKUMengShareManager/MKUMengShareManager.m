@@ -17,18 +17,25 @@
 /*
  友盟第三方登录分享设置
  */
-+ (void)confitUShareSettings {
++ (void)confitUShareSettings:(MKUMengShareKeyModel *)model {
    
+    
+    
     /* 设置友盟appkey */
-    [[UMSocialManager defaultManager] setUmSocialAppkey:UMengAppkey];
+    [[UMSocialManager defaultManager] setUmSocialAppkey:model.umengKey];
     
     /* 打开调试日志 */
     [[UMSocialManager defaultManager] openLog:isDebug];
     
-    
     /* 配置微信、QQ */
-    [[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_WechatSession appKey:WXAppkey appSecret:WXAppSecret redirectURL:UMengRedirectURL];
-    [[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_QQ appKey:QQAppkey/*设置QQ平台的appID*/  appSecret:nil redirectURL:UMengRedirectURL];
+    [[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_WechatSession appKey:model.wxAppkey appSecret:model.wxAppSecret redirectURL:model.umengRedirectURL];
+    [[UMSocialManager defaultManager] setPlaform:UMSocialPlatformType_QQ appKey:model.qqAppkey/*设置QQ平台的appID*/  appSecret:nil redirectURL:model.umengRedirectURL];
+}
+
+- (void)confitUShareGlobalSettings { // 这些都是默认设置
+    [UMSocialGlobal shareInstance].isTruncateShareText = YES;
+    [UMSocialGlobal shareInstance].isClearCacheWhenGetUserInfo = YES;
+    [UMSocialGlobal shareInstance].isUsingHttpsWhenShareContent = YES;
 }
 
 
